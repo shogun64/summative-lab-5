@@ -1,0 +1,14 @@
+.welcome {
+    padding: 10%;
+    text-align: center;
+    border-radius: 8px;
+    margin: 1rem 0; 
+}
+
+.welcome h1 {
+    color: black;
+}
+
+.welcome p {
+    color: white;
+}

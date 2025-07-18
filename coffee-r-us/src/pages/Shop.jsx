@@ -1,12 +1,11 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import CoffeeList from "../components/CoffeeList";
+import styles from "./Shop.module.css";
 
 function Shop() {
   return (
-    <div className="shop">
-        <h1>Coffee R Us</h1>
-        <p>The go to store for your coffee needs</p>
+    <div className={styles.shop}>
         <Sidebar />
         <CoffeeList />
     </div>
