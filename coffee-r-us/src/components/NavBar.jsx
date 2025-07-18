@@ -4,10 +4,10 @@ import styles from "./styles/NavBar.module.css";
 
 const NavBar = () => {
 	return (
-		<nav className="navbar">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/shop">Shop</NavLink>
-            <NavLink to="/admin">Admin Portal</NavLink>
+		<nav className={styles.navbar}>
+            <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : undefined)}>Home</NavLink>
+            <NavLink to="/shop" className={({ isActive }) => (isActive ? styles.active : undefined)}>Shop</NavLink>
+            <NavLink to="/admin" className={({ isActive }) => (isActive ? styles.active : undefined)}>Admin Portal</NavLink>
         </nav>
 	);
 };
