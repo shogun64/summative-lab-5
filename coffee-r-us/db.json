@@ -2,7 +2,7 @@
   "coffee": [
     {
       "id": "1",
-      "description": "Medium Roast, Nutty flavor",
+      "description": "Medium Roast, nutty flavor",
       "name": "Vanilla bean",
       "origin": "Columbian",
       "price": "10"
