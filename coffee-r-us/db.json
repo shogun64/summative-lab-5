@@ -1,1 +1,18 @@
-{}
+{
+  "coffee": [
+    {
+      "id": 1,
+      "description": "Medium Roast, nutty flavor",
+      "name": "Vanilla bean",
+      "origin": "Columbian",
+      "price": 10.00
+    },
+    {
+      "id": 2,
+      "description": "Dark Roast, Rich flavor",
+      "name": "House Blend",
+      "origin": "Vietnamese",
+      "price": 12.00
+    }
+   ]
+}
