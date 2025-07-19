@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles/Sidebar.module.css"
 
-function Sidebar() {
+function Sidebar({search, setSearch}) {
   return (
     <div className={styles.sidebar}>
-        <p>The go to store for your coffee needs</p>
+        <input
+        type="text" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value)}/>
     </div>
   )
 }
