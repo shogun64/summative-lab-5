@@ -1,12 +1,15 @@
 import React from "react";
 import EditForm from "./EditForm";
+import styles from "./styles/CoffeeCard.module.css";
 
-function CoffeeCard() {
+function CoffeeCard({coffee}) {
   return (
-    <div className="coffeeCard">
-        <h1>Coffee R Us</h1>
-        <p>The go to store for your coffee needs</p>
-        <EditForm />
+    <div className={styles.coffeeCard}>
+        <h2>{coffee.name}</h2>
+        <p>{coffee.description}</p>
+        <p>{coffee.origin} origin</p>
+        <p>${coffee.price.toFixed(2)}</p>
+        <p className={styles.edit}>Edit Product</p>
     </div>
   )
 }
