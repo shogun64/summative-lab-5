@@ -1,0 +1,27 @@
+.addForm {
+  background-color: #776355;
+  margin: 40px auto;
+  border-radius: 8px;
+  width: 400px;
+  padding: 10px;
+}
+
+.form {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+}
+
+.form input {
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 6px;
+  margin: 20px;
+  height: 30px;
+}
+
+.button {
+  background-color: #74291b;
+  margin: 20px 80px 20px 80px;
+}
